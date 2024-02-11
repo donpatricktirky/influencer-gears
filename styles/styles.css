@@ -79,14 +79,14 @@ nav li{
 
 .banner-btn{
     /* Frame 67 */
-    /* position: relative; */
+    position: relative;
     width: 196px;
     height: 44px;
     /* Auto layout */
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: flex-start; */
-    /* align-items: flex-start; */
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 10px 24px 10px 24px;
 
     border-radius: 41px;
