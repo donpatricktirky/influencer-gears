@@ -5,8 +5,6 @@
   *{
     font-family: 'Poppins', sans-serif;
   }
- 
-
 /* header style start */
 header{
     padding-left: 120px;
@@ -80,16 +78,37 @@ nav li{
 }
 
 .banner-btn{
-    border-radius: 10px;
+    /* Frame 67 */
+    /* position: relative; */
+    width: 196px;
+    height: 44px;
+    /* Auto layout */
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    padding: 10px 24px 10px 24px;
+
+    border-radius: 41px;
+    background: #E02C6D;
+    
+    border: none;
     color: #FFFFFF;
     font-size: 16px;
-    background-color: #E02C6D;
-    border: none;
+   
 } 
+.banner-btn .pink-arrow{
+  padding-left: 5px; 
+}
+
 /* header style finish */
 .brands-border{
-    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+    /* background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%); */
     padding: 35px 62px;
+    /* border-radius: 8px; */
+    border: 1px solid #C0CCDA 10%
+    #C0CCDA 60%
+    #C0CCDA 10%;
 }
 .brands{
     display: flex;
