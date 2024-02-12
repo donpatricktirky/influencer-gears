@@ -95,13 +95,13 @@ nav li{
     border: none;
     color: #FFFFFF;
     font-size: 16px;
-   
 } 
 .banner-btn .pink-arrow{
   padding-left: 5px; 
 }
 
 /* header style finish */
+/* brands style start */
 .brands-border{
     /* background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%); */
     padding: 35px 62px;
@@ -117,4 +117,110 @@ nav li{
     gap: 50px;
     /* padding-left: 100px;
     padding-right: 100px; */
+}
+/* brands style finish */
+/* popular collection style start */
+.popular-collection-group{
+    padding: 100px 100px;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.products{
+    border-radius: 5px;
+    background: #FFFFFF;
+    /* background: rgb(255, 255, 255); */
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px 15px;
+    /* padding: 17px 15px 20px 14px; */
+}
+.popular-title{
+    text-align: center;
+    font-weight: 600;
+    Font-size: 28px;
+}
+.products-container.products .product-name{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+.products-container.products .product-price{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000 87%;
+}
+.popular-collection-group .collection-btn{
+    /* Frame 67 */
+    /* position: relative; */
+    width: 196px;
+    height: 44px;
+    /* Auto layout */
+    display: flex;
+    
+    /* justify-content: space-between;
+    align-items: center; */
+
+
+    /* flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start; */
+
+
+    padding: 10px 24px 10px 24px;
+
+    border-radius: 41px;
+    background: #E02C6D;
+    
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+} 
+.collection-btn .pink-arrow{
+  padding-left: 5px; 
+}
+
+/* feature products style */
+.feature-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 100px;
+    
+}
+.feature-products-content{
+    padding-left: 100px;
+    padding: 23px 0px 23px 96px;
+}
+.feature-products-content .feature-title{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+.feature-products-content .feature-description{
+
+}
+.feature-products-content .feature-btn{
+    display: flex;
+    border: none;
+    background: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+    /* Frame 68 */
+    position: relative;
+    width: 155px;
+    height: 44px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 24px 10px 24px;
+
+}
+.feature-products-content .pink-arrow{
+    padding-left: 5px;
 }
