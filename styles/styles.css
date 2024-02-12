@@ -54,8 +54,7 @@ nav li{
 }
 
 .banner-img{
-  padding-top: 181px; 
-  
+    padding-top: 181px; 
 }
 
 .box{
@@ -223,4 +222,21 @@ nav li{
 }
 .feature-products-content .pink-arrow{
     padding-left: 5px;
+}
+
+.footer{
+    background-color: rgba(9, 11, 44, 0.884);
+    text-align: center;
+    padding: 25px 0px;
+}
+.footer-title{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.footer-description{
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.footer > img{
+    
 }
