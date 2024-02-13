@@ -77,20 +77,10 @@ nav li{
 }
 
 .banner-btn{
-    /* Frame 67 */
-    position: relative;
-    width: 196px;
-    height: 44px;
-    /* Auto layout */
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
     padding: 10px 24px 10px 24px;
-
     border-radius: 41px;
     background: #E02C6D;
-    
     border: none;
     color: #FFFFFF;
     font-size: 16px;
@@ -150,34 +140,19 @@ nav li{
     font-size: 24px;
     color: #000000 87%;
 }
+
 .popular-collection-group .collection-btn{
-    /* Frame 67 */
-    /* position: relative; */
-    width: 196px;
-    height: 44px;
     /* Auto layout */
     display: flex;
-    
-    /* justify-content: space-between;
-    align-items: center; */
-
-
-    /* flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start; */
-
-
     padding: 10px 24px 10px 24px;
-
     border-radius: 41px;
-    background: #E02C6D;
-    
+    color: #E02C6D;
     border: none;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
     font-size: 16px;
 } 
 .collection-btn .pink-arrow{
-  padding-left: 5px; 
+  padding-left: 5px;
 }
 
 /* feature products style */
@@ -202,30 +177,19 @@ nav li{
 
 }
 .feature-products-content .feature-btn{
-    display: flex;
     border: none;
     background: #E02C6D;
     color: #FFFFFF;
     font-size: 16px;
-    
-    /* Frame 68 */
-    position: relative;
-    width: 155px;
-    height: 44px;
-    /* Auto layout */
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
     padding: 10px 24px 10px 24px;
-
 }
 .feature-products-content .pink-arrow{
     padding-left: 5px;
 }
 
 .footer{
-    background-color: rgba(9, 11, 44, 0.884);
+    background-color: #0A0826;
     text-align: center;
     padding: 25px 0px;
 }
